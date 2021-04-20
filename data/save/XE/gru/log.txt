@@ -1,0 +1,95 @@
+04-19 20:13 WARNING  From /home/kangjie/PycharmProjects/c/final_code/visual_storytelling/log_utils.py:26: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+04-19 20:13 INFO     Option settings:
+04-19 20:13 INFO     grad_clip                               : 10
+04-19 20:13 INFO     conv_feat_size                          : 100352
+04-19 20:13 INFO     shuffle                                 : True
+04-19 20:13 INFO     scheduled_sampling_max_prob             : 0.25
+04-19 20:13 INFO     decoding_method_DISC                    : sample
+04-19 20:13 INFO     use_feature_with_context                : False
+04-19 20:13 INFO     scheduled_sampling_increase_every       : 5
+04-19 20:13 INFO     rl_weight                               : 0.5
+04-19 20:13 INFO     start_from_model                        : None
+04-19 20:13 INFO     use_conv                                : False
+04-19 20:13 INFO     scheduled_sampling_increase_prob        : 0.05
+04-19 20:13 INFO     visual_dropout                          : 0.2
+04-19 20:13 INFO     full_story_h5                           : VIST/full_story.h5
+04-19 20:13 INFO     num_layers                              : 1
+04-19 20:13 INFO     max_epochs                              : 100
+04-19 20:13 INFO     word_embed_dim                          : 512
+04-19 20:13 INFO     id                                      : XE
+04-19 20:13 INFO     metric                                  : METEOR
+04-19 20:13 INFO     scheduled_sampling_start                : 0
+04-19 20:13 INFO     weight_decay                            : 0
+04-19 20:13 INFO     data_dir                                : /home/kangjie/PycharmProjects/rl_story/data
+04-19 20:13 INFO     learning_rate_decay_every               : 5
+04-19 20:13 INFO     workers                                 : 8
+04-19 20:13 INFO     resume_from                             : None
+04-19 20:13 INFO     learning_rate                           : 0.0004
+04-19 20:13 INFO     reward_type                             : METEOR
+04-19 20:13 INFO     activation                              : sign
+04-19 20:13 INFO     G_iter                                  : 100
+04-19 20:13 INFO     load_best_score                         : True
+04-19 20:13 INFO     rnn_type                                : gru
+04-19 20:13 INFO     momentum                                : 0.9
+04-19 20:13 INFO     story_h5                                : VIST/story.h5
+04-19 20:13 INFO     option                                  : train
+04-19 20:13 INFO     optim                                   : Adam
+04-19 20:13 INFO     story_line_json                         : VIST/story_line.json
+04-19 20:13 INFO     batch_size                              : 64
+04-19 20:13 INFO     D_iter                                  : 100
+04-19 20:13 INFO     checkpoint_path                         : data/save
+04-19 20:13 INFO     start_rl                                : -1
+04-19 20:13 INFO     losses_log_every                        : 10
+04-19 20:13 INFO     learning_rate_decay_rate                : 0.5
+04-19 20:13 INFO     dropout                                 : 0.5
+04-19 20:13 INFO     story_size                              : 5
+04-19 20:13 INFO     task                                    : story_telling
+04-19 20:13 INFO     optim_beta                              : 0.999
+04-19 20:13 INFO     learning_rate_decay_start               : -1
+04-19 20:13 INFO     save_checkpoint_every                   : 1000
+04-19 20:13 INFO     cached_tokens                           : VIST/VIST-train-words
+04-19 20:13 INFO     prefix                                  : fc/
+04-19 20:13 INFO     optim_alpha                             : 0.8
+04-19 20:13 INFO     beam_size                               : 1
+04-19 20:13 INFO     with_position                           : False
+04-19 20:13 INFO     desc_h5                                 : VIST/description.h5
+04-19 20:13 INFO     hidden_dim                              : 512
+04-19 20:13 INFO     always                                  : None
+04-19 20:13 INFO     debug                                   : False
+04-19 20:13 INFO     model                                   : BaseModel
+04-19 20:13 INFO     optim_epsilon                           : 1e-08
+04-19 20:13 INFO     feat_size                               : 2048
+04-19 20:13 INFO     Initialize the parameters of the model
+04-19 20:13 INFO     Epoch 0 - Iter 0 / 627, loss = 9.42166, time used = 0.205s
+04-19 20:13 INFO     Epoch 0 - Iter 1 / 627, loss = 8.96426, time used = 0.127s
+04-19 20:13 INFO     Epoch 0 - Iter 2 / 627, loss = 8.65832, time used = 0.119s
+04-19 20:13 INFO     Epoch 0 - Iter 3 / 627, loss = 8.46433, time used = 0.115s
+04-19 20:13 INFO     Epoch 0 - Iter 4 / 627, loss = 8.24000, time used = 0.114s
+04-19 20:13 INFO     Epoch 0 - Iter 5 / 627, loss = 8.02666, time used = 0.113s
+04-19 20:13 INFO     Epoch 0 - Iter 6 / 627, loss = 7.91316, time used = 0.113s
+04-19 20:13 INFO     Epoch 0 - Iter 7 / 627, loss = 7.81461, time used = 0.113s
+04-19 20:13 INFO     Epoch 0 - Iter 8 / 627, loss = 7.71221, time used = 0.113s
+04-19 20:13 INFO     Epoch 0 - Iter 9 / 627, loss = 7.48291, time used = 0.091s
+04-19 20:13 WARNING  From /home/kangjie/PycharmProjects/c/final_code/visual_storytelling/log_utils.py:29: The name tf.Summary is deprecated. Please use tf.compat.v1.Summary instead.
+
+04-19 20:13 INFO     Epoch 0 - Iter 10 / 627, loss = 7.48416, time used = 0.113s
+04-19 20:13 INFO     Epoch 0 - Iter 11 / 627, loss = 7.36950, time used = 0.114s
+04-19 20:13 INFO     Epoch 0 - Iter 12 / 627, loss = 7.37943, time used = 0.111s
+04-19 20:13 INFO     Epoch 0 - Iter 13 / 627, loss = 7.21599, time used = 0.115s
+04-19 20:13 INFO     Epoch 0 - Iter 14 / 627, loss = 7.16825, time used = 0.114s
+04-19 20:13 INFO     Epoch 0 - Iter 15 / 627, loss = 7.05408, time used = 0.114s
+04-19 20:13 INFO     Epoch 0 - Iter 16 / 627, loss = 6.99937, time used = 0.115s
+04-19 20:13 INFO     Epoch 0 - Iter 17 / 627, loss = 6.93642, time used = 0.106s
+04-19 20:13 INFO     Epoch 0 - Iter 18 / 627, loss = 6.81709, time used = 0.110s
+04-19 20:13 INFO     Epoch 0 - Iter 19 / 627, loss = 6.71051, time used = 0.117s
+04-19 20:13 INFO     Epoch 0 - Iter 20 / 627, loss = 6.65718, time used = 0.113s
+04-19 20:13 INFO     Epoch 0 - Iter 21 / 627, loss = 6.59744, time used = 0.113s
+04-19 20:13 INFO     Epoch 0 - Iter 22 / 627, loss = 6.59884, time used = 0.113s
+04-19 20:13 INFO     Epoch 0 - Iter 23 / 627, loss = 6.44915, time used = 0.113s
+04-19 20:13 INFO     Epoch 0 - Iter 24 / 627, loss = 6.45425, time used = 0.113s
+04-19 20:13 INFO     Epoch 0 - Iter 25 / 627, loss = 6.44905, time used = 0.113s
+04-19 20:13 INFO     Epoch 0 - Iter 26 / 627, loss = 6.35507, time used = 0.113s
+04-19 20:13 INFO     Epoch 0 - Iter 27 / 627, loss = 6.29111, time used = 0.114s
+04-19 20:13 INFO     Epoch 0 - Iter 28 / 627, loss = 6.20626, time used = 0.114s
+04-19 20:13 INFO     Epoch 0 - Iter 29 / 627, loss = 6.30487, time used = 0.113s

@@ -1,3 +1,4 @@
+Generating natural language stories from images has become a major research area in the field of computer vision. Though there are impressive results in visual story generation, the task of producing more human-like stories is still restrictive. Inspired by existing reinforcement reward learning methods that aim to cope up with this challenge, we consider adapting them to boost visual story generation tasks. In this project, we work on [VIST] (https://vist-rl_story.s3.amazonaws.com/resnet_features.zip), the Visual Storytelling dataset and perform experiments on different RNN variants along with adversarial learning, that aims at generating coherent and expressive stories for image sequences. While we empirically show the superiority of our proposed method with visual attention mechanism in adversarial setup over the state-of-art methods, we also mention difficulties due to the limitations of automatic metrics on story evaluation. 
 
 ## Prerequisites 
 - Python 2.7
@@ -7,8 +8,11 @@
 
 ## Usage
 ### 1. Setup
-
-Download the preprocessed ResNet-152 features [here](https://vist-rl_story.s3.amazonaws.com/resnet_features.zip) and unzip it into `data/resnet_features`.
+- Create anaconda environment: `conda create -n rl_story python=2.7`
+- Install pytorch: `conda install pytorch=0.4.1 cuda90 -c pytorch`
+- Install tensorflow: 'conda install tensorflow=1.15'
+- Download the code: `git clone https://github.com/minhdo3000/visual_storytelling.git`
+- Download the preprocessed ResNet-152 features [here](https://vist-rl_story.s3.amazonaws.com/resnet_features.zip) and unzip it into `data/resnet_features`.
 
 ### 2. Generate Story using Reinforcemnt Learning
 To train an the model:
